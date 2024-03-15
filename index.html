@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GPA calculator</title>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Tip Calculator</h1>
+        <div id="main">
+           <label>Enter total bill amount</label>
+           <input id="amount" type="text" placeholder="amount to be paid"><br>
+           <label>enter amount of tip</label>
+           <select id="tip">
+            <option selected disabled hidden>select</option>
+            <option value="0.25">25% top notch</option>
+            <option value="0.2">20% excellent</option>
+            <option value="0.1">10% satisfactory</option>
+            <option value="0">0</option>
+           </select><br>
+           <label>total person</label>
+           <input type="text" placeholder="no of person at desk" id="person">
+           <button id="d1">Calculate</button>
+        </div>
+        <p id="demo"></p>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
